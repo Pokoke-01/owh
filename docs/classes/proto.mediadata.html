@@ -100,7 +100,11 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="proto.mediadata.html#localpath" class="tsd-kind-icon">local<wbr>Path</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="proto.mediadata.html#directpath" class="tsd-kind-icon">direct<wbr>Path</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="proto.mediadata.html#fileencsha256" class="tsd-kind-icon">file<wbr>Enc<wbr>Sha256</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="proto.mediadata.html#filesha256" class="tsd-kind-icon">file<wbr>Sha256</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="proto.mediadata.html#mediakey" class="tsd-kind-icon">media<wbr>Key</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="proto.mediadata.html#mediakeytimestamp" class="tsd-kind-icon">media<wbr>Key<wbr>Timestamp</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -132,7 +136,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/b68ab8b/WAProto/index.d.ts#L17508">WAProto/index.d.ts:17508</a></li>
+									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/792c4bf/WAProto/index.d.ts#L17562">WAProto/index.d.ts:17562</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -154,18 +158,82 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
-					<a name="localpath" class="tsd-anchor"></a>
-					<h3>local<wbr>Path</h3>
-					<div class="tsd-signature tsd-kind-icon">local<wbr>Path<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<a name="directpath" class="tsd-anchor"></a>
+					<h3>direct<wbr>Path</h3>
+					<div class="tsd-signature tsd-kind-icon">direct<wbr>Path<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
-						<p>Implementation of <a href="../interfaces/proto.imediadata.html">IMediaData</a>.<a href="../interfaces/proto.imediadata.html#localpath">localPath</a></p>
+						<p>Implementation of <a href="../interfaces/proto.imediadata.html">IMediaData</a>.<a href="../interfaces/proto.imediadata.html#directpath">directPath</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/b68ab8b/WAProto/index.d.ts#L17517">WAProto/index.d.ts:17517</a></li>
+							<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/792c4bf/WAProto/index.d.ts#L17583">WAProto/index.d.ts:17583</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
-							<p>MediaData localPath.</p>
+							<p>MediaData directPath.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="fileencsha256" class="tsd-anchor"></a>
+					<h3>file<wbr>Enc<wbr>Sha256</h3>
+					<div class="tsd-signature tsd-kind-icon">file<wbr>Enc<wbr>Sha256<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Uint8Array</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/proto.imediadata.html">IMediaData</a>.<a href="../interfaces/proto.imediadata.html#fileencsha256">fileEncSha256</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/792c4bf/WAProto/index.d.ts#L17580">WAProto/index.d.ts:17580</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>MediaData fileEncSha256.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="filesha256" class="tsd-anchor"></a>
+					<h3>file<wbr>Sha256</h3>
+					<div class="tsd-signature tsd-kind-icon">file<wbr>Sha256<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Uint8Array</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/proto.imediadata.html">IMediaData</a>.<a href="../interfaces/proto.imediadata.html#filesha256">fileSha256</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/792c4bf/WAProto/index.d.ts#L17577">WAProto/index.d.ts:17577</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>MediaData fileSha256.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="mediakey" class="tsd-anchor"></a>
+					<h3>media<wbr>Key</h3>
+					<div class="tsd-signature tsd-kind-icon">media<wbr>Key<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Uint8Array</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/proto.imediadata.html">IMediaData</a>.<a href="../interfaces/proto.imediadata.html#mediakey">mediaKey</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/792c4bf/WAProto/index.d.ts#L17571">WAProto/index.d.ts:17571</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>MediaData mediaKey.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="mediakeytimestamp" class="tsd-anchor"></a>
+					<h3>media<wbr>Key<wbr>Timestamp</h3>
+					<div class="tsd-signature tsd-kind-icon">media<wbr>Key<wbr>Timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Long</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/proto.imediadata.html">IMediaData</a>.<a href="../interfaces/proto.imediadata.html#mediakeytimestamp">mediaKeyTimestamp</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/792c4bf/WAProto/index.d.ts#L17574">WAProto/index.d.ts:17574</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>MediaData mediaKeyTimestamp.</p>
 						</div>
 					</div>
 				</section>
@@ -182,7 +250,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/b68ab8b/WAProto/index.d.ts#L17587">WAProto/index.d.ts:17587</a></li>
+									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/792c4bf/WAProto/index.d.ts#L17653">WAProto/index.d.ts:17653</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -210,7 +278,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/b68ab8b/WAProto/index.d.ts#L17524">WAProto/index.d.ts:17524</a></li>
+									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/792c4bf/WAProto/index.d.ts#L17590">WAProto/index.d.ts:17590</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -239,7 +307,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/b68ab8b/WAProto/index.d.ts#L17550">WAProto/index.d.ts:17550</a></li>
+									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/792c4bf/WAProto/index.d.ts#L17616">WAProto/index.d.ts:17616</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -282,7 +350,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/b68ab8b/WAProto/index.d.ts#L17559">WAProto/index.d.ts:17559</a></li>
+									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/792c4bf/WAProto/index.d.ts#L17625">WAProto/index.d.ts:17625</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -322,7 +390,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/b68ab8b/WAProto/index.d.ts#L17532">WAProto/index.d.ts:17532</a></li>
+									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/792c4bf/WAProto/index.d.ts#L17598">WAProto/index.d.ts:17598</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -357,7 +425,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/b68ab8b/WAProto/index.d.ts#L17540">WAProto/index.d.ts:17540</a></li>
+									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/792c4bf/WAProto/index.d.ts#L17606">WAProto/index.d.ts:17606</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -392,7 +460,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/b68ab8b/WAProto/index.d.ts#L17573">WAProto/index.d.ts:17573</a></li>
+									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/792c4bf/WAProto/index.d.ts#L17639">WAProto/index.d.ts:17639</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -429,7 +497,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/b68ab8b/WAProto/index.d.ts#L17581">WAProto/index.d.ts:17581</a></li>
+									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/792c4bf/WAProto/index.d.ts#L17647">WAProto/index.d.ts:17647</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -469,7 +537,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/b68ab8b/WAProto/index.d.ts#L17566">WAProto/index.d.ts:17566</a></li>
+									<li>Defined in <a href="https://github.com/adiwajshing/Baileys/blob/792c4bf/WAProto/index.d.ts#L17632">WAProto/index.d.ts:17632</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -538,10 +606,19 @@
 								<a href="../modules/proto.dnssource.html">DNSSource</a>
 							</li>
 							<li class=" tsd-kind-namespace tsd-parent-kind-namespace">
+								<a href="../modules/proto.disappearingmode.html">Disappearing<wbr>Mode</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-namespace">
 								<a href="../modules/proto.extendedtextmessage.html">Extended<wbr>Text<wbr>Message</a>
 							</li>
 							<li class=" tsd-kind-namespace tsd-parent-kind-namespace">
 								<a href="../modules/proto.externaladreplyinfo.html">External<wbr>AdReply<wbr>Info</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-namespace">
+								<a href="../modules/proto.groupinvitemessage.html">Group<wbr>Invite<wbr>Message</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-namespace">
+								<a href="../modules/proto.groupparticipant.html">Group<wbr>Participant</a>
 							</li>
 							<li class=" tsd-kind-namespace tsd-parent-kind-namespace">
 								<a href="../modules/proto.hsmdatetimecomponent.html">HSMDate<wbr>Time<wbr>Component</a>
@@ -568,6 +645,9 @@
 								<a href="../modules/proto.ordermessage.html">Order<wbr>Message</a>
 							</li>
 							<li class=" tsd-kind-namespace tsd-parent-kind-namespace">
+								<a href="../modules/proto.paymentbackground.html">Payment<wbr>Background</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-namespace">
 								<a href="../modules/proto.paymentinfo.html">Payment<wbr>Info</a>
 							</li>
 							<li class=" tsd-kind-namespace tsd-parent-kind-namespace">
@@ -575,6 +655,9 @@
 							</li>
 							<li class=" tsd-kind-namespace tsd-parent-kind-namespace">
 								<a href="../modules/proto.protocolmessage.html">Protocol<wbr>Message</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-namespace">
+								<a href="../modules/proto.shopmessage.html">Shop<wbr>Message</a>
 							</li>
 							<li class=" tsd-kind-namespace tsd-parent-kind-namespace">
 								<a href="../modules/proto.syncdmutation.html">Syncd<wbr>Mutation</a>
@@ -609,7 +692,19 @@
 								<a href="proto.mediadata.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
-								<a href="proto.mediadata.html#localpath" class="tsd-kind-icon">local<wbr>Path</a>
+								<a href="proto.mediadata.html#directpath" class="tsd-kind-icon">direct<wbr>Path</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="proto.mediadata.html#fileencsha256" class="tsd-kind-icon">file<wbr>Enc<wbr>Sha256</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="proto.mediadata.html#filesha256" class="tsd-kind-icon">file<wbr>Sha256</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="proto.mediadata.html#mediakey" class="tsd-kind-icon">media<wbr>Key</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="proto.mediadata.html#mediakeytimestamp" class="tsd-kind-icon">media<wbr>Key<wbr>Timestamp</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="proto.mediadata.html#tojson" class="tsd-kind-icon">toJSON</a>
